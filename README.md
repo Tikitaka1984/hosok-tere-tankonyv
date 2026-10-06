@@ -13,6 +13,7 @@
 | `icons/` | alkalmazásikonok |
 | `vercel.json` | gyorsítótár-beállítás a Vercelhez |
 | `LICENSE-fonts.txt` | a betűtípusok licence |
+| `robots.txt` | a keresőmotorok kizárása (az oldal nem kerül a találatok közé) |
 
 ## Telepítés (kb. 20–25 perc)
 
@@ -29,6 +30,12 @@
 4. A projekt nevét (Project Name) érdemes `hosok-tere`-re állítani, így a cím: `https://hosok-tere.vercel.app` (ha foglalt, például `hosok-tere-tk`).
 
 Ezután minden GitHub-módosítás magától újra közzétételre kerül.
+
+## Keresők kizárása és képek
+
+- Az oldal `noindex` jelöléssel, `robots.txt`-szel és `X-Robots-Tag` fejléccel kérik a keresőmotoroktól, hogy ne listázzák. A cím így csak a megosztott hivatkozással (QR-kód) érhető el. Ez nem jelent hozzáférés-védelmet.
+- A Hősök emlékköve képe szemléltető ábra (az eredeti fotó eredete nem volt tisztázható). Saját fotóval a `index.html`-ben az `"emlekko"` kép cserélhető; Claude Code ezt elvégzi.
+- A lábléc forrásjelzése: a képek tanórai anyagból származnak, oktatási célú használatra.
 
 ## Mielőtt a diákok használják
 

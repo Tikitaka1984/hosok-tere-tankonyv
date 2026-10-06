@@ -1,6 +1,6 @@
 /* Hősök tere – service worker
    Verzió: frissítéskor növeld a számot (V), így a diákok eszközén új változat töltődik. */
-const V = 'hosok-tere-v1';
+const V = 'hosok-tere-v2';
 const FILES = [
   "./",
   "./index.html",
